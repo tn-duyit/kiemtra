@@ -29,7 +29,16 @@ namespace kiemtra
 
         private void button1_Click(object sender, EventArgs e)
         {
+            {
 
+                if (textboxusername.Text == "admin" && textboxmatkhau.Text=="admin")
+                {
+                    FormMain b = new FormMain();
+                    b.Show();
+                }
+                else
+                    MessageBox.Show("Nhập sai tài khoản hoặc mật khẩu, vui lòng kiểm tra lại!");
+            }
         }
 
         private void txtPassword_TextChanged(object sender, EventArgs e)
