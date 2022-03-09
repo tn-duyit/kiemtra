@@ -49,7 +49,7 @@
             // textboxusername
             // 
             this.textboxusername.Location = new System.Drawing.Point(213, 27);
-            this.textboxusername.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textboxusername.Margin = new System.Windows.Forms.Padding(2);
             this.textboxusername.Name = "textboxusername";
             this.textboxusername.Size = new System.Drawing.Size(182, 20);
             this.textboxusername.TabIndex = 1;
@@ -58,7 +58,7 @@
             // textboxmatkhau
             // 
             this.textboxmatkhau.Location = new System.Drawing.Point(213, 68);
-            this.textboxmatkhau.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textboxmatkhau.Margin = new System.Windows.Forms.Padding(2);
             this.textboxmatkhau.Name = "textboxmatkhau";
             this.textboxmatkhau.Size = new System.Drawing.Size(182, 20);
             this.textboxmatkhau.TabIndex = 4;
@@ -77,8 +77,8 @@
             // 
             // btnLogin
             // 
-            this.btnLogin.Location = new System.Drawing.Point(275, 136);
-            this.btnLogin.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnLogin.Location = new System.Drawing.Point(247, 139);
+            this.btnLogin.Margin = new System.Windows.Forms.Padding(2);
             this.btnLogin.Name = "btnLogin";
             this.btnLogin.Size = new System.Drawing.Size(85, 26);
             this.btnLogin.TabIndex = 6;
@@ -96,7 +96,7 @@
             this.Controls.Add(this.textboxmatkhau);
             this.Controls.Add(this.textboxusername);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
